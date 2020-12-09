@@ -74,7 +74,7 @@ namespace prjCapeloWeb
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Pessoa}/{action=Index}/{id?}");
+                    pattern: "{controller=Exercicio}/{action=Index}/{id?}");
             });
         }
     }

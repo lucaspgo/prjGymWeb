@@ -65,13 +65,21 @@ namespace prjCapeloWeb.Controllers
                 UserName = pessoaView.Email,
                 Email = pessoaView.Email
             };
-
-            IdentityResult resultado = await _userManager.CreateAsync(pessoa, pessoaView.Senha);
-            if (resultado.Succeeded)
-            {   
-                return RedirectToAction(nameof(Index));
+            if(pessoaView.Senha == pessoaView.ConfirmacaoSenha)
+            {
+                IdentityResult resultado = await _userManager.CreateAsync(pessoa, pessoaView.Senha);
+                if (resultado.Succeeded)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                AdicionarErros(resultado);
             }
-            AdicionarErros(resultado);
+            else
+            {
+                ModelState.AddModelError("", "As senhas não coincidem, preencha novamente os campos!");
+            }
+
+            
             //if (ModelState.IsValid)
             //{
                 
@@ -99,7 +107,7 @@ namespace prjCapeloWeb.Controllers
 
             if (result.Succeeded)
             {
-                return RedirectToAction("Index", "Ficha");
+                return RedirectToAction("Index", "Exercicio");
             }
 
             ModelState.AddModelError("", "Login ou senha inválidos!");

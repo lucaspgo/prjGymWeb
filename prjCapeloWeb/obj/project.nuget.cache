@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eR7wNplfJ+Ri+FP4B9wmppseidGxDjYP7YMI2gEeBdnskFmv4ra6reiHaWtULPwxfmmWwh1cMI1g9g5L59yOkg==",
+  "dgSpecHash": "6J9wI3JnTdsqu8dhaLknaxZyS9jDcRDDkV22+2hZdD11cKaJpKDBV1h0w/31GaTjT7Y95M91Ek/r08IYEffUTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lucas\\source\\repos\\prjCapeloWeb\\prjCapeloWeb\\prjCapeloWeb.csproj",
+  "projectFilePath": "C:\\Users\\Lucas\\Documents\\GitHub\\prjGymWeb\\prjCapeloWeb\\prjCapeloWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.9\\microsoft.aspnetcore.cryptography.internal.3.1.9.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.9\\microsoft.aspnetcore.cryptography.keyderivation.3.1.9.nupkg.sha512",

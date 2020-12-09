@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<prjCapeloWeb.Models.GrupoMuscular>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Grupo Muscular";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -17,7 +17,7 @@
     <thead>
         <tr>
             <th>#</th>
-            <th>Nome</th>            
+            <th>Nome</th>
             <th></th>
             <th></th>
         </tr>
@@ -27,7 +27,7 @@
         {
             <tr>
                 <td>@gpCadastrado.Id</td>
-                <td>@gpCadastrado.Nome</td>                
+                <td>@gpCadastrado.Nome</td>
                 <td>
                     <a asp-action="Delete" asp-controller="GrupoMuscular"
                        asp-route-id="@gpCadastrado.Id">
@@ -44,3 +44,7 @@
         }
     </tbody>
 </table>
+
+<div>
+<a asp-action="Index">Voltar para a Lista</a>
+</div>

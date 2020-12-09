@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\source\\repos\\prjCapeloWeb\\prjCapeloWeb\\prjCapeloWeb.csproj": {}
+    "C:\\Users\\Lucas\\Documents\\GitHub\\prjGymWeb\\prjCapeloWeb\\prjCapeloWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\source\\repos\\prjCapeloWeb\\prjCapeloWeb\\prjCapeloWeb.csproj": {
+    "C:\\Users\\Lucas\\Documents\\GitHub\\prjGymWeb\\prjCapeloWeb\\prjCapeloWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\source\\repos\\prjCapeloWeb\\prjCapeloWeb\\prjCapeloWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas\\Documents\\GitHub\\prjGymWeb\\prjCapeloWeb\\prjCapeloWeb.csproj",
         "projectName": "prjCapeloWeb",
-        "projectPath": "C:\\Users\\Lucas\\source\\repos\\prjCapeloWeb\\prjCapeloWeb\\prjCapeloWeb.csproj",
+        "projectPath": "C:\\Users\\Lucas\\Documents\\GitHub\\prjGymWeb\\prjCapeloWeb\\prjCapeloWeb.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\source\\repos\\prjCapeloWeb\\prjCapeloWeb\\obj\\",
+        "outputPath": "C:\\Users\\Lucas\\Documents\\GitHub\\prjGymWeb\\prjCapeloWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
