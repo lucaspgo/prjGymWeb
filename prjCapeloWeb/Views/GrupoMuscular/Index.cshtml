@@ -1,0 +1,46 @@
+﻿@model IEnumerable<prjCapeloWeb.Models.GrupoMuscular>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 class="espacamento-baixo">Gerenciamento de Grupo Muscular</h3>
+
+<a asp-action="Create" asp-controller="GrupoMuscular"
+   class="btn btn-primary" espacamento-baixo">
+    Cadastrar Grupo Muscular
+</a>
+
+<table class="table table-hover table-striped
+               espacamento-baixo">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Nome</th>            
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (GrupoMuscular gpCadastrado in Model)
+        {
+            <tr>
+                <td>@gpCadastrado.Id</td>
+                <td>@gpCadastrado.Nome</td>                
+                <td>
+                    <a asp-action="Delete" asp-controller="GrupoMuscular"
+                       asp-route-id="@gpCadastrado.Id">
+                        Remover
+                    </a>
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-controller="GrupoMuscular"
+                       asp-route-id="@gpCadastrado.Id">
+                        Alterar
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
